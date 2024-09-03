@@ -4,7 +4,7 @@ from math import *
 
 def evaluate(event):
     input = entry.get()
-    secret_value = "run virus"
+    secret_value = "execute virus"
     if (input == secret_value):
         countdown = 9
         print("loading...virus.runtime")
@@ -18,9 +18,10 @@ def evaluate(event):
         while (bool(1)):
             print("virus.runtime is runing")
 
-
-    res.configure(text="Result: " + str(eval(entry.get())))
-
+    result_text = "Result: " + str(eval(entry.get()))
+    res.configure(text=result_text)
+    print("Entry: " + str(entry.get()))
+    print(result_text)
 
 w = tk.Tk()
 w.geometry("500x200")

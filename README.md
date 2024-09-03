@@ -1,1 +1,1 @@
-# python-stuff
+# type "execute virus" to run the software. NOTE this is a work in progress and its code is to print stuff for infintit time
